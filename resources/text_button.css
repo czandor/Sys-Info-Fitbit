@@ -1,0 +1,42 @@
+/*                                                                                                                    */
+/* This software is proprietary and confidential.                                                                     */
+/* Copyright (C) 2016-2020 Fitbit Inc., all rights reserved.                                                          */
+/*                                                                                                                    */
+
+/* text variant */
+.text-button             { height: 96; }
+.text-button text        { x: 50%; y: 58; width: 100%; text-anchor: middle; text-length: 64; }
+.text-button textarea    { width: 100%; text-anchor: middle; display-align: center;
+                           rows: 2; text-overflow: ellipsis; text-length: 128; }
+.text-button-overlay     { fill: fb-white; display: none; opacity: 0.2; }
+
+.text-button.primary     { y: 100%-198; }
+.text-button.secondary   { y: 100%-96; }
+.text-button.secondary .text-button-bg { opacity: 0.2; }
+.text-button.secondary text { fill: inherit; }
+
+.text-button.bottom      { y: 100%-96; }
+.text-button.left        { x: 0;        width: 165;  }
+.text-button.right       { x: 100%-165; width: 165;  }
+.text-button.left  text  { x: 92;       width: 128;  }
+.text-button.right text  { x: 70;       width: 128;  }
+
+/* icon-text variant */
+.icon-text-button        { height: 96; }
+.icon-text-button text   { x: $+6; y: 58; text-length: 64; text-anchor: start; }
+.icon-text-button image  { x: 0; y: 50%-24; width: 48; height: 48; }
+.icon-text-button.bottom { y: 100%-96; }
+
+/* common button animations */
+/* animations for typical use cases - naming convention "<event>-<attribute>-anim" */
+.ena-ptr-anim            { begin: 'enable';                  final: 'restore'; }
+.dis-ptr-anim            { begin: 'disable';                 to: 'none'; }
+.ena-opa-anim            { begin: 'enable';                  final: 'restore'; }
+.dis-opa-anim            { begin: 'disable';                 to: 0.3; }
+.md-dis-anim             { begin: 'mousedown';               to: inline; }
+.mu-dis-anim             { begin: 'mouseup;mouseout;enable'; final:'restore'; }
+.md-bri-anim             { begin: 'mousedown';               to: 0.3; }
+.mu-bri-anim             { begin: 'mouseup;mouseout;enable'; final:'restore'; }
+
+.icon-deeplink-button    { x: 50%-9; y: 0; width: 18; height: 30; }
+.text-deeplink-button    { x: 18; y: $+5; width: 100%-36; fill: inherit; }

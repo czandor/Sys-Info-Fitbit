@@ -1,0 +1,42 @@
+#info1ScrollItem{
+  display: flexible-height;
+}
+#info2ScrollItem{
+  display: flexible-height;
+}
+#info3ScrollItem{
+  display: flexible-height;
+}
+.infoButtonsItem{
+  display: flexible-height;
+}
+.infoBackItem{
+  display: flexible-height;
+}
+
+
+
+#sensorScrollItem{
+  display: flexible-height;
+}
+.sensorBackItem{
+  display: flexible-height;
+}
+
+
+
+#testScrollItem{
+  display: flexible-height;
+}
+.testBackItem{
+  display: flexible-height;
+}
+
+
+
+.mainHeader{
+  y: 40;
+}
+.mainFooter{
+  y: 100%-20;
+}

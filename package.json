@@ -1,0 +1,28 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "~4.2.0"
+  },
+  "fitbit": {
+    "appUUID": "ba34eae2-f5b5-47a6-8aea-bb8272633704",
+    "appType": "app",
+    "appDisplayName": "Sys-Info",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#00bcd4",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_activity",
+      "access_location",
+      "run_background",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "mira"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "Sys-Info"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

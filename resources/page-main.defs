@@ -1,0 +1,22 @@
+<defs>
+  <symbol id="main">
+    
+    <svg id="mainPage">
+      <rect class="mainBG" />
+      <text class="mainHeader">Sys-Info V0.56</text>
+      <image id="infoButton" href="images/buttons/main-device-info.png" class="button button-main">
+        <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+      </image>
+      <image id="deviceImage" href="" class="button button-main">
+      </image>
+      <image id="sensorButton" href="images/buttons/main-sensors.png" class="button button-main">
+        <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+      </image>
+      <image id="testButton" href="images/buttons/main-speed-test.png" class="button button-main">
+        <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+      </image>
+      <text class="mainFooter">czandor.hu/sysinfo</text>
+    </svg>
+  </symbol>
+  
+</defs>

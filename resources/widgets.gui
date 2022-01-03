@@ -1,0 +1,18 @@
+<svg>
+  <defs>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="device.css" />
+    <link rel="import" href="/mnt/sysassets/widgets_common.gui" />
+
+    
+    <link rel="import" href="text_button.defs" />
+    <link rel="import" href="/mnt/sysassets/widgets/baseview_widget.gui" />
+    <link rel="import" href="/mnt/sysassets/widgets/scrollview_widget.gui" />
+
+    <link rel="import" href="page-main.defs" />
+    <link rel="import" href="page-info.defs" />
+    <link rel="import" href="page-sensors.defs" />
+    <link rel="import" href="page-test.defs" />
+
+  </defs>
+</svg>

@@ -1,0 +1,179 @@
+<defs>
+  <symbol id="info">
+    <svg id="infoPage">
+      <rect class="infoBG" />
+      <use href="#scrollview" id="info1Scroll">
+        <use href="#scrollview-item" class="infoButtonsItem">
+          <image id="info11-button" href="images/buttons/info-main-active.png" class="button button-info button-info1">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info12-button" href="images/buttons/info-look.png" class="button button-info button-info2">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info13-button" href="images/buttons/info-internal.png" class="button button-info button-info3">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+        <use href="#scrollview-item" id="info1ScrollItem">
+          <rect x="0" y="0" height="20" />
+          <text id="name-label" class="label info-label">name</text>
+          <text id="name-data" class="data info-data">{ ... }</text>
+          <text id="alias-label" class="label info-label">alias</text>
+          <text id="alias-data" class="data info-data">{ ... }</text>
+          <text id="modelId-label" class="label info-label">model-id</text>
+          <text id="modelId-data" class="data info-data">{ ... }</text>
+          <text id="fcc-label" class="label info-label">FCC-id</text>
+          <text id="fcc-data" class="data info-data">{ ... }</text>
+          <text id="release-label" class="label info-label">released</text>
+          <text id="release-data" class="data info-data">{ ... }</text>
+          <text id="material-label" class="label info-label">material</text>
+          <text id="material-data" class="data info-data">{ ... }</text>
+          <text id="buttons-label" class="label info-label">buttons</text>
+          <text id="buttons-data" class="data info-data">{ ... }</text>
+          <!--text id="touch-label" class="label info-label">touch</text>
+          <text id="touch-data" class="data info-data">{ ... }</text-->
+          <text id="nfc-label" class="label info-label">nfc</text>
+          <text id="nfc-data" class="data info-data">{ ... }</text>
+          <text id="microphone-label" class="label info-label">microphone</text>
+          <text id="microphone-data" class="data info-data">{ ... }</text>
+          <text id="speaker-label" class="label info-label">speaker</text>
+          <text id="speaker-data" class="data info-data">{ ... }</text>
+          <text id="voice-label" class="label info-label">voice command</text>
+          <text id="voice-data" class="data info-data">{ ... }</text>
+          <text id="spo2-label" class="label info-label">spo2 sensor</text>
+          <text id="spo2-data" class="data info-data">{ ... }</text>
+          <text id="skin-label" class="label info-label">skin temperature</text>
+          <text id="skin-data" class="data info-data">{ ... }</text>
+          <text id="ecg-label" class="label info-label">ecg</text>
+          <text id="ecg-data" class="data info-data">{ ... }</text>
+          <text id="eda-label" class="label info-label">eda scanner</text>
+          <text id="eda-data" class="data info-data">{ ... }</text>
+          <text id="music-label" class="label info-label">music storage</text>
+          <text id="music-data" class="data info-data">{ ... }</text>
+        </use>
+        <use href="#scrollview-item" class="infoBackItem">
+          <image id="info1-back" href="images/buttons/back.png" class="button button-back">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+      </use>
+      <use href="#scrollview" id="info2Scroll">
+        <use href="#scrollview-item" class="infoButtonsItem">
+          <image id="info21-button" href="images/buttons/info-main.png" class="button button-info button-info1">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info22-button" href="images/buttons/info-look-active.png" class="button button-info button-info2">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info23-button" href="images/buttons/info-internal.png" class="button button-info button-info3">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+        <use href="#scrollview-item" id="info2ScrollItem">
+          <rect x="0" y="0" height="20" />
+          <text id="color-label" class="label info-label">color</text>
+          <text id="color-data" class="data info-data">{ ... }</text>
+          <text id="case-label" class="label info-label">dimensions</text>
+          <text id="case-data" class="data info-data">{ ... }</text>
+          <text id="weight-label" class="label info-label">weight</text>
+          <text id="weight-data" class="data info-data">{ ... }</text>
+          <text id="screentype-label" class="label info-label">screen type</text>
+          <text id="screentype-data" class="data info-data">{ ... }</text>
+          <text id="screensize-label" class="label info-label">screen size</text>
+          <text id="screensize-data" class="data info-data">{ ... }</text>
+          <text id="screenresolution-label" class="label info-label">resolution</text>
+          <text id="screenresolution-data" class="data info-data">{ ... }</text>
+          <text id="screenppi-label" class="label info-label">density</text>
+          <text id="screenppi-data" class="data info-data">{ ... }</text>
+          <text id="brightness-label" class="label info-label">brightness</text>
+          <text id="brightness-data" class="data info-data">{ ... }</text>
+          <text id="aod-label" class="label info-label">always-on</text>
+          <text id="aod-data" class="data info-data">{ ... }</text>
+          <text id="protection-label" class="label info-label">protection</text>
+          <text id="protection-data" class="data info-data">{ ... }</text>
+          <text id="charging-label" class="label info-label">charger type</text>
+          <text id="charging-data" class="data info-data">{ ... }</text>
+          <text id="strap-label" class="label info-label">strap type</text>
+          <text id="strap-data" class="data info-data">{ ... }</text>
+        </use>
+        <use href="#scrollview-item" class="infoBackItem">
+          <image id="info2-back" href="images/buttons/back.png" class="button button-back">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+      </use>
+      <use href="#scrollview" id="info3Scroll">
+        <use href="#scrollview-item" class="infoButtonsItem">
+          <image id="info31-button" href="images/buttons/info-main.png" class="button button-info button-info1">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info32-button" href="images/buttons/info-look.png" class="button button-info button-info2">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <image id="info33-button" href="images/buttons/info-internal-active.png" class="button button-info button-info3">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+        <use href="#scrollview-item" id="info3ScrollItem">
+          <rect x="0" y="0" height="20" />
+          <text id="batterysize-label" class="label info-label">battery</text>
+          <text id="batterysize-data" class="data info-data">{ ... }</text>
+          <text id="chipset-label" class="label info-label">chipset</text>
+          <text id="chipset-data" class="data info-data">{ ... }</text>
+          <text id="fabric-label" class="label info-label">fabric</text>
+          <text id="fabric-data" class="data info-data">{ ... }</text>
+          <text id="cpu-label" class="label info-label">cpu</text>
+          <text id="cpu-data" class="data info-data">{ ... }</text>
+          <text id="gpu-label" class="label info-label">gpu</text>
+          <text id="gpu-data" class="data info-data">{ ... }</text>
+          <text id="ram-label" class="label info-label">ram</text>
+          <text id="ram-data" class="data info-data">{ ... }</text>
+          <text id="flash-label" class="label info-label">flash size</text>
+          <text id="flash-data" class="data info-data">{ ... }</text>
+          <text id="flashavailable-label" class="label info-label">flash available</text>
+          <text id="flashavailable-data" class="data info-data">{ ... }</text>
+          <text id="cellular-label" class="label info-label">cellular</text>
+          <text id="cellular-data" class="data info-data">{ ... }</text>
+          <text id="bluetooth-label" class="label info-label">bluetooth</text>
+          <text id="bluetooth-data" class="data info-data">{ ... }</text>
+          <text id="gpschip-label" class="label info-label">gps</text>
+          <text id="gpschip-data" class="data info-data">{ ... }</text>
+          <text id="wifi-label" class="label info-label">wifi</text>
+          <text id="wifi-data" class="data info-data">{ ... }</text>
+          <text id="accelerometer-label" class="label info-label">accelero</text>
+          <text id="accelerometer-data" class="data info-data">{ ... }</text>
+          <text id="gyrochip-label" class="label info-label">gyro</text>
+          <text id="gyrochip-data" class="data info-data">{ ... }</text>
+          <text id="heartrate-label" class="label info-label">heart rate</text>
+          <text id="heartrate-data" class="data info-data">{ ... }</text>
+          <text id="light-label" class="label info-label">light</text>
+          <text id="light-data" class="data info-data">{ ... }</text>
+          <text id="compass-label" class="label info-label">compass</text>
+          <text id="compass-data" class="data info-data">{ ... }</text>
+          <text id="vibration-label" class="label info-label">vibration</text>
+          <text id="vibration-data" class="data info-data">{ ... }</text>
+          <text id="altimeter-label" class="label info-label">altimeter</text>
+          <text id="altimeter-data" class="data info-data">{ ... }</text>
+          <text id="iprating-label" class="label info-label">ip rating</text>
+          <text id="iprating-data" class="data info-data">{ ... }</text>
+          <text id="fw-label" class="label info-label">firmware</text>
+          <text id="fw-data" class="data info-data">{ ... }</text>
+          <text id="memjs-label" class="label info-label">js memory</text>
+          <text id="memjs-data" class="data info-data">{ ... }</text>
+        </use>
+        <use href="#scrollview-item" class="infoBackItem">
+          <image id="info3-back" href="images/buttons/back.png" class="button button-back">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+      </use>
+      <animate attributeName="x" begin="enable" from="100%" to="0" dur="0.5" />
+      <animate attributeName="x" begin="disable" from="0" to="100%" dur="0.5" />
+    </svg>
+
+
+
+
+    
+  </symbol>
+</defs>

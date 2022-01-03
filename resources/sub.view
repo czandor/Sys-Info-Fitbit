@@ -1,0 +1,5 @@
+<svg class="background">
+  <use href="#info" />
+  <use href="#sensors" />
+  <use href="#test" />
+</svg>

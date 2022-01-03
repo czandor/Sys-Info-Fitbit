@@ -1,0 +1,51 @@
+#info1ScrollItem{
+  display: inline;
+  height: 810;
+}
+#info2ScrollItem{
+  display: inline;
+  height: 620;
+}
+#info3ScrollItem{
+  display: inline;
+  height: 1100;
+}
+.infoButtonsItem{
+  display: inline;
+  height: 70;
+}
+.infoBackItem{
+  display: inline;
+  height: 80;
+}
+
+
+
+#sensorScrollItem{
+  display: inline;
+  height:660;
+}
+.sensorBackItem{
+  display: inline;
+  height: 80;
+}
+
+
+
+#testScrollItem{
+  display: inline;
+  height:850;
+}
+.testBackItem{
+  display: inline;
+  height: 80;
+}
+
+
+
+.mainHeader{
+  y: 30;
+}
+.mainFooter{
+  y: 100%-20;
+}

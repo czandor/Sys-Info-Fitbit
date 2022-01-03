@@ -1,0 +1,251 @@
+
+.button{
+  pointer-events: visible;
+}
+.title{
+  width: 348;
+  height: 80;
+  y: 0;
+  x: 50%-174;
+}
+.button-main{
+  width: 120;
+  height: 80;
+}
+.button-back{
+  width: 348;
+  height: 80;
+  y: 0;
+  x: 50%-174;
+}
+.label{
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+  display:inline;
+}
+
+.data{
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+  x: 50%;
+  y: $;
+}
+
+
+
+
+#mainPage{
+}
+.mainBG{
+  x:0;
+  y:0;
+  width:100%;
+  height:100%;
+  fill: black;
+}
+.mainHeader{
+  font-family: System-Light;
+  fill: yellow;
+  text-anchor: middle;
+  font-size: 25;
+  x: 50%;
+}
+.mainFooter{
+  font-family: System-Light;
+  fill: gray;
+  text-anchor: middle;
+  font-size: 25;
+  x: 50%;
+}
+#infoButton{
+  x: 50%-10-120;
+  y: 50%-10-80;
+}
+#deviceImage{
+  x: 50%+10;
+  y: 50%-10-80;
+}
+
+#sensorButton{
+  x: 50%-10-120;
+  y: 50%+10;
+}
+#testButton{
+  x: 50%+10;
+  y: 50%+10;
+  
+}
+
+
+#infoPage{
+  x:100%;
+  display:none;
+}
+.infoBG{
+  x:0;
+  y:0;
+  width:100%;
+  height:100%;
+  fill: gray;
+}
+.button-info{
+  width: 90;
+  height:60;
+  y:10;
+}
+.button-info1{
+  x: 50%-45-10-90;
+} 
+.button-info2{
+  x: 50%-45;
+} 
+.button-info3{
+  x: 50%+45+10;
+} 
+
+
+
+
+
+#sensorPage{
+  x:100%;
+  display:none;
+}
+.sensorBG{
+  x:0;
+  y:0;
+  width:100%;
+  height:100%;
+  fill: gray;
+}
+
+
+
+
+#testPage{
+  x:100%;
+  display:none;
+}
+.testBG{
+  x:0;
+  y:0;
+  width:100%;
+  height:100%;
+  fill: gray;
+}
+.button-test-start{
+  width: 90;
+  height: 60;
+  x: 50%-45;
+  y: $;
+}
+.test-data{
+  font-family: System-Bold;
+}
+#test-type-data{
+  font-size: 25;
+  y: $+30;
+}
+.test-comparison-header{
+  font-family: System-Bold;
+  fill: white;
+  text-anchor: middle;
+  font-size: 30;
+  x: 50%;
+  y:$+10;
+}
+.test-comparison-header2{
+  font-family: System-Light;
+  fill: black;
+  text-anchor: middle;
+  font-size: 20;
+  x: 50%;
+  y:$-5;
+}
+.test-comparison-block{
+  width: 100%;
+  height: 450;
+  x:0;
+  y:$-15;
+}
+.test-comparison-item{
+  width:100%;
+  height:80;
+  x:0;
+  y:$+10;
+  pointer-events: visible;
+}
+#test-comparison-item-1{
+  y:0;
+}
+.test-comparison-item-bg{
+  width: 100%;
+  height: 100%;
+  fill: #444444;
+}
+.test-comparison-devicename{
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  font-size: 25;
+  text-length: 32;
+  x:50%;
+  y:25;
+}
+.test-comparison-ms{
+  font-family: Seville-Bold-Condensed; 
+  fill: white;
+  text-anchor: start;
+  font-size: 25;
+  x:50%-150+5;
+  y:62;
+  text-length: 64;
+}
+.test-bar{
+  width: 30;
+  height: 30;
+  x:$;
+  y: 40;
+  fill: white;
+}
+.test-bar-1{
+  x:50%-150;
+}
+
+.color-1{
+  fill: fb-indigo	;
+}
+.color-2{
+  fill: fb-yellow	;
+}
+.color-3{
+  fill: fb-violet	;
+}
+.color-4{
+  fill: fb-green-press	;
+}
+
+.tr{
+  /*width: 20%;
+  height: 20%;
+  x: $;
+  y: $-20%;*/
+  fill: red;
+  display: none;
+}
+.trf{
+  /*x:0;
+  y: $;*/
+  fill: blue;
+}
+#tr0{
+  /*y:0;*/
+  fill: green;
+}

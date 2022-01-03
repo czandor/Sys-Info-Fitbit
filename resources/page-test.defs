@@ -1,0 +1,118 @@
+<defs>
+  
+  <symbol id="test">
+    <svg id="testPage">
+      <rect class="testBG" />
+
+      <use href="#scrollview" id="testScroll">
+        <use href="#scrollview-item" id="testScrollItem">
+          <image href="images/buttons/title-speed-test.png" class="title">
+          </image>
+          <rect x="0" y="$" height="20" />
+          <image id="teststart-button" href="images/buttons/start.png" class="button button-test-start">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+          <!--rect x="0" y="$" height="20" /-->
+          <text id="test-type-data" class="data test-data">&bnsp;</text>
+          <text id="testresult-label" class="label test-label">Results</text>
+          <text id="test-cpu-data" class="data test-data color-1">{ ... }</text>
+          <text id="test-mem-data" class="data test-data color-2">{ ... }</text>
+          <text id="test-file-data" class="data test-data color-3">{ ... }</text>
+          <text id="test-vga-data" class="data test-data color-4">{ ... }</text>
+          
+          <text class="test-comparison-header">Comparisons</text>
+          <text class="test-comparison-header2">Smaller is better</text>
+          <svg class="test-comparison-block">
+            <svg class="test-comparison-item" id="test-comparison-item-1">
+              <rect class="test-comparison-item-bg" />
+              <text class="test-comparison-devicename" id="test-comparison-devicename-1">devicename-1</text>
+              <rect class="test-bar test-bar-1 color-1" id="test-bar-1-1" />
+              <rect class="test-bar test-bar-2 color-2" id="test-bar-2-1" />
+              <rect class="test-bar test-bar-3 color-3" id="test-bar-3-1" />
+              <rect class="test-bar test-bar-4 color-4" id="test-bar-4-1" />
+              <text class="test-comparison-ms" id="test-comparison-ms-1">10000 ms</text>
+            </svg>
+            <svg class="test-comparison-item" id="test-comparison-item-2">
+              <rect class="test-comparison-item-bg" />
+              <text class="test-comparison-devicename" id="test-comparison-devicename-2">devicename-2</text>
+              <rect class="test-bar test-bar-1 color-1" id="test-bar-1-2" />
+              <rect class="test-bar test-bar-2 color-2" id="test-bar-2-2" />
+              <rect class="test-bar test-bar-3 color-3" id="test-bar-3-2" />
+              <rect class="test-bar test-bar-4 color-4" id="test-bar-4-2" />
+              <text class="test-comparison-ms" id="test-comparison-ms-2">10000 ms</text>
+            </svg>
+            <svg class="test-comparison-item" id="test-comparison-item-3">
+              <rect class="test-comparison-item-bg" />
+              <text class="test-comparison-devicename" id="test-comparison-devicename-3">devicename-3</text>
+              <rect class="test-bar test-bar-1 color-1" id="test-bar-1-3" />
+              <rect class="test-bar test-bar-2 color-2" id="test-bar-2-3" />
+              <rect class="test-bar test-bar-3 color-3" id="test-bar-3-3" />
+              <rect class="test-bar test-bar-4 color-4" id="test-bar-4-3" />
+              <text class="test-comparison-ms" id="test-comparison-ms-3">10000 ms</text>
+            </svg>
+            <svg class="test-comparison-item" id="test-comparison-item-4">
+              <rect class="test-comparison-item-bg" />
+              <text class="test-comparison-devicename" id="test-comparison-devicename-4">devicename-4</text>
+              <rect class="test-bar test-bar-1 color-1" id="test-bar-1-4" />
+              <rect class="test-bar test-bar-2 color-2" id="test-bar-2-4" />
+              <rect class="test-bar test-bar-3 color-3" id="test-bar-3-4" />
+              <rect class="test-bar test-bar-4 color-4" id="test-bar-4-4" />
+              <text class="test-comparison-ms" id="test-comparison-ms-4">10000 ms</text>
+            </svg>
+            <svg class="test-comparison-item" id="test-comparison-item-5">
+              <rect class="test-comparison-item-bg" />
+              <text class="test-comparison-devicename" id="test-comparison-devicename-5">devicename-5</text>
+              <rect class="test-bar test-bar-1 color-1" id="test-bar-1-5" />
+              <rect class="test-bar test-bar-2 color-2" id="test-bar-2-5" />
+              <rect class="test-bar test-bar-3 color-3" id="test-bar-3-5" />
+              <rect class="test-bar test-bar-4 color-4" id="test-bar-4-5" />
+              <text class="test-comparison-ms" id="test-comparison-ms-5">10000 ms</text>
+            </svg>
+          </svg>
+            
+        </use>
+        <use href="#scrollview-item" class="testBackItem">
+          <image id="test-back" href="images/buttons/back.png" class="button button-back">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+      </use>
+      
+      <rect class="tr trf" id="tr0" />
+      <rect class="tr" id="tr1" />
+      <rect class="tr" id="tr2" />
+      <rect class="tr" id="tr3" />
+      <rect class="tr" id="tr4" />
+      
+      <rect class="tr trf" id="tr5" />
+      <rect class="tr" id="tr6" />
+      <rect class="tr" id="tr7" />
+      <rect class="tr" id="tr8" />
+      <rect class="tr" id="tr9" />
+      
+      <rect class="tr trf" id="tr10" />
+      <rect class="tr" id="tr11" />
+      <rect class="tr" id="tr12" />
+      <rect class="tr" id="tr13" />
+      <rect class="tr" id="tr14" />
+      
+      <rect class="tr trf" id="tr15" />
+      <rect class="tr" id="tr16" />
+      <rect class="tr" id="tr17" />
+      <rect class="tr" id="tr18" />
+      <rect class="tr" id="tr19" />
+      
+      <rect class="tr trf" id="tr20" />
+      <rect class="tr" id="tr21" />
+      <rect class="tr" id="tr22" />
+      <rect class="tr" id="tr23" />
+      <rect class="tr" id="tr24" />
+      
+      <animate attributeName="x" begin="enable" from="100%" to="0" dur="0.5" />
+      <animate attributeName="x" begin="disable" from="0" to="100%" dur="0.5" />
+    </svg>
+
+
+    
+  </symbol>
+</defs>

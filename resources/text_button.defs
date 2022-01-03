@@ -1,0 +1,98 @@
+<!--                                                                         -->
+<!-- @file text_button.defs                                                  -->
+<!-- @copyright                                                              -->
+<!-- Copyright 2016-2020 by Fitbit, Inc. All Rights Reserved                 -->
+<!--                                                                         -->
+<!--
+  text button is a square button used throughout the system.
+  There are multiple style, size, position variants.
+  More examples of usage, please take this as reference.
+
+  **** apps/test/resources/common/text_button_test.view ****
+
+  symbol:                 class modifier:
+  text-button             require:  text-button           // all text button need this
+                          optional: bottom                // if the button locates bottom.
+                                    primary / secondary   // if there are 2 buttons, one is primary , another is secondary
+                                    left / right          // if there are 2 buttons, one is left , another is right
+
+  Example use:
+  default text button with inherited fill color.
+
+  One button locates bottom:
+    <use id="my-button" href='#text-button' class='text-button bottom application-fill'>
+      <set href='#text' attributeName='text-buffer' to='Primary Button'/>
+    </use>
+
+    or this equals
+    <use id="my-button" href='#text-button' class='text-button bottom application-fill my-button'/>
+
+    .my-button #text { text-buffer: "Primary Button";}
+
+  Two buttons primary and secondary :
+    <use id="my-button-1" href='#text-button' class='text-button primary application-fill'>
+      <set href='#text' attributeName='text-buffer' to='Primary Button'/>
+    </use>
+    <use id="my-button-2" href='#text-button' class='text-button secondary application-fill'>
+      <set href='#text' attributeName='text-buffer' to='Secondary Button'/>
+    </use>
+  Note that styles are applied at-use , which means colors and images can be re-define from app's stylesheet.
+-->
+<link rel='stylesheet' href='text_button.css'/>
+
+<!-- text button - button with only text used for full size and side by side button -->
+<symbol id="text-button" class='text-button' type='push-button'
+        pointer-events='visible' system-events='all' focusable='false'>
+  <animate attributeName='pointer-events' class='ena-ptr-anim'/>
+  <animate attributeName='pointer-events' class='dis-ptr-anim'/>
+  <animate attributeName='opacity'        class='ena-opa-anim'/>
+  <animate attributeName='opacity'        class='dis-opa-anim'/>
+
+  <rect class='text-button-bg full-size' apply-style='at-use'/>
+
+  <rect class='text-button-overlay full-size' apply-style='at-use'>
+    <animate attributeName='display'  class='md-dis-anim'/>
+    <animate attributeName='display'  class='mu-dis-anim'/>
+  </rect>
+  <text id="text" class='h4 background-fill' apply-style='at-use'/>
+  <audio begin='activate' href='vibe-confirmation'/>
+</symbol>
+
+<!-- textarea button - used when multiple rows of text are needed -->
+<symbol id="textarea-button" class='text-button' type='push-button'
+        pointer-events='visible' system-events='all' focusable='false'>
+  <animate attributeName='pointer-events' class='ena-ptr-anim'/>
+  <animate attributeName='pointer-events' class='dis-ptr-anim'/>
+  <animate attributeName='opacity'        class='ena-opa-anim'/>
+  <animate attributeName='opacity'        class='dis-opa-anim'/>
+
+  <rect class='text-button-bg full-size' apply-style='at-use'/>
+
+  <rect class='text-button-overlay full-size'>
+    <animate attributeName='display'  class='md-dis-anim'/>
+    <animate attributeName='display'  class='mu-dis-anim'/>
+  </rect>
+  <textarea id="text" class='h4 background-fill' apply-style='at-use'/>
+  <audio begin='activate' href='vibe-confirmation'/>
+</symbol>
+
+<!-- icon-text-button - button with icon and text -->
+<symbol id="icon-text-button" class='icon-text-button' type='push-button'
+        pointer-events='visible' system-events='all' focusable='false'>
+  <animate attributeName='pointer-events' class='ena-ptr-anim'/>
+  <animate attributeName='pointer-events' class='dis-ptr-anim'/>
+  <animate attributeName='opacity'        class='ena-opa-anim'/>
+  <animate attributeName='opacity'        class='dis-opa-anim'/>
+
+  <rect class='text-button-bg full-size' apply-style='at-use'/>
+
+  <rect class='text-button-overlay full-size' apply-style='at-use'>
+    <animate attributeName='display'  class='md-dis-anim'/>
+    <animate attributeName='display'  class='mu-dis-anim'/>
+  </rect>
+  <use href='#center-aligned-content'>
+    <image id="image" class='background-fill'    apply-style='at-use'/>
+    <text  id="text"  class='h4 background-fill' apply-style='at-use'/>
+  </use>
+  <audio begin='activate' href='vibe-confirmation'/>
+</symbol>

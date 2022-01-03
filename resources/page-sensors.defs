@@ -1,0 +1,46 @@
+<defs>
+  <symbol id="sensors">
+    
+    <svg id="sensorPage">
+      <rect class="sensorBG" />
+
+      <use href="#scrollview" id="sensorScroll">
+        <use href="#scrollview-item" id="sensorScrollItem">
+          <image href="images/buttons/title-sensors.png" class="title">
+          </image>
+          <rect x="0" y="$" height="20" />
+          <text id="accel-label" class="label sensor-label">accelero</text>
+          <text id="accel-data" class="data sensor-data">{ ... }</text>
+          <text id="bar-label" class="label sensor-label">barometer</text>
+          <text id="bar-data" class="data sensor-data">{ ... }</text>
+          <text id="bps-label" class="label sensor-label">body-presence</text>
+          <text id="bps-data" class="data sensor-data">{ ... }</text>
+          <text id="gyro-label" class="label sensor-label">gyro</text>
+          <text id="gyro-data" class="data sensor-data">{ ... }</text>
+          <text id="hrm-label" class="label sensor-label">heart rate</text>
+          <text id="hrm-data" class="data sensor-data">{ ... }</text>
+          <text id="orientation-label" class="label sensor-label">orientation</text>
+          <text id="orientation-data" class="data sensor-data">{ ... }</text>
+          <text id="gps-label" class="label sensor-label">gps</text>
+          <text id="gps-data" class="data sensor-data">{ ... }</text>
+          <text id="power-label" class="label sensor-label">power</text>
+          <text id="power-data" class="data sensor-data">{ ... }</text>
+          <text id="battery-label" class="label sensor-label">battery</text>
+          <text id="battery-data" class="data sensor-data">{ ... }</text>
+          <text id="sleep-label" class="label sensor-label">sleep detect</text>
+          <text id="sleep-data" class="data sensor-data">{ ... }</text>
+          <text id="health-label" class="label sensor-label">step, floor, dist, kcal, azm</text>
+          <text id="health-data" class="data sensor-data">{ ... }</text>
+        </use>
+        <use href="#scrollview-item" class="sensorBackItem">
+          <image id="sensor-back" href="images/buttons/back.png" class="button button-back">
+            <animate attributeName="opacity" begin="click" from="1" to="0.5" dur="0.2" final="restore" />
+          </image>
+        </use>
+      </use>
+      <animate attributeName="x" begin="enable" from="100%" to="0" dur="0.5" />
+      <animate attributeName="x" begin="disable" from="0" to="100%" dur="0.5" />
+    </svg>
+  
+  </symbol>
+</defs>

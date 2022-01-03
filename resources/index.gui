@@ -1,0 +1,6 @@
+<svg class="background">
+  <use href="#main" />
+  <use href="#info" />
+  <use href="#sensors" />
+  <use href="#test" />
+</svg>

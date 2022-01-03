@@ -28,7 +28,7 @@ Screenshots:
 ![Sense](https://github.com/czandor/Sys-Info-Fitbit/blob/main/screenshot/sense/Sys-Info-screenshot%20(4).png?raw=true)
 
 You can download the compiled version from Fitbit Gallery:
-https://gallery.fitbit.com/details/b36d8ea6-c803-45fe-ad34-91dbe8d08e89
+https://gallery.fitbit.com/details/ba34eae2-f5b5-47a6-8aea-bb8272633704
 
 This clockface is completely free. Please support my work if you can.
 ☕ Buy me a coffee: https://czandor.hu/paypal/prog
